@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Product</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">My Inventory</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row bg-white mt-4">
+            <div class="col-md-2 col-sm-12 p-3"><img src="assets/images/image01.png" alt="" class="img img-thumbnail rounded-circle border-0"></div>
+            <div class="col-md-3 col-sm-12 p-3">
+                <h2 class="fw-bold">Dahron</h2>
+                <span class="text-muted">Front End Developer</span>
+                <div class="mt-4 d-block">
+                    <button class="btn btn-primary">Kontak</button>
+                    <button class="btn btn-outline-success">Resume</button>
+                </div>
+            </div>
+            <div class="col-md col-sm-12 m-3 border-start">
+                <div class="row">
+                    <label for="availability" class="col-sm-2 col-form-label col-form-label-sm fw-bold">Availability</label>
+                    <span id="availability" class="col-sm-10 text-muted">Fulltime</span>
+                </div>
+                <div class="row">
+                    <label for="usia" class="col-sm-2 col-form-label col-form-label-sm fw-bold">Usia</label>
+                    <span id="usia" class="col-sm-10 text-muted">17</span>
+                </div>
+                <div class="row">
+                    <label for="lokasi" class="col-sm-2 col-form-label col-form-label-sm fw-bold">Lokasi</label>
+                    <span id="lokasi" class="col-sm-10 text-muted">Jakarta, Indonesia</span>
+                </div>
+                <div class="row">
+                    <label for="pengalaman" class="col-sm-2 col-form-label col-form-label-sm fw-bold">Pengalaman</label>
+                    <span id="pengalaman" class="col-sm-10 text-muted">2</span>
+                </div>
+                <div class="row">
+                    <label for="email" class="col-sm-2 col-form-label col-form-label-sm fw-bold">Email</label>
+                    <span id="email" class="col-sm-10 text-muted">mrx@gmail.com</span>
+                </div>
+            </div>
+        </div>
+            <form action="#" method="post" class="row mt-4 bg-white">
+                <div class="col-12 pb-3">
+                    <label for="name" class="form-label fw-bold">Nama</label>
+                    <input type="text" name="name" id="name" class="form-control">
+                </div>
+                <div class="col-12 pb-3">
+                    <label for="role" class="form-label fw-bold">Role</label>
+                    <input type="text" name="role" id="role" class="form-control">
+                </div>
+                <div class="col-12 pb-3">
+                    <label for="availability" class="form-label fw-bold">Availability</label>
+                    <input type="text" name="availability" id="availability" class="form-control">
+                </div>
+                <div class="col-12 pb-3">
+                    <label for="age" class="form-label fw-bold">Age</label>
+                    <input type="number" name="age" id="age" class="form-control">
+                </div>
+                <div class="col-12 pb-3">
+                    <label for="lokasi" class="form-label fw-bold">Lokasi</label>
+                    <input type="text" name="lokasi" id="lokasi" class="form-control">
+                </div>
+                <div class="col-12 pb-3">
+                    <label for="experience" class="form-label fw-bold">Years Experience</label>
+                    <input type="number" name="experience" id="experience" class="form-control">
+                </div>
+                <div class="col-12 pb-3">
+                    <label for="email" class="form-label fw-bold">Email</label>
+                    <input type="email" name="email" id="email" class="form-control">
+                </div>
+                <div class="col-12 d-grid gap-2 pt-2">
+                    <button type="submit" class="btn btn-success text-uppercase">Submit</button>
+                </div>
+            </form>
+    </div>
+</body>
+
+</html>
